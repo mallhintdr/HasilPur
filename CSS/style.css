@@ -158,7 +158,7 @@ h3 {
     right: 10px;
     height: 10vh;  /* Adjust size as needed */
     width: 10vh;   /* Adjust size as needed */
-    background-image: url('Images/north.png');
+    background-image: url('../Images/north.png');
     background-size: cover;
     z-index: 1000;
 }
