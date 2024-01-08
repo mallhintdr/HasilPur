@@ -49,7 +49,7 @@ function customSort(array) {
 // Example usage
 
 
-var data = ["17 FW","18 FW","61 F","62 F","63 F","65 F"]; // Your predefined array
+var data = ["Old Hasil Pur","19 FW","17 FW","18 FW","61 F","62 F","63 F","65 F"]; // Your predefined array
 let chakNames=customSort(data);
 var currentLayer = null;
 var Murabba_Layer = null;
