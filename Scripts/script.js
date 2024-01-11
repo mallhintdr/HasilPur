@@ -49,7 +49,7 @@ function customSort(array) {
 // Example usage
 
 
-var data = ["Old Hasil Pur","19 FW","17 FW","18 FW","61 F","62 F","63 F","65 F"]; // Your predefined array
+var data = ["Jamal Pur","Old Hasil Pur","19 FW","17 FW","18 FW","61 F","62 F","63 F","65 F"]; // Your predefined array
 let chakNames=customSort(data);
 var currentLayer = null;
 var Murabba_Layer = null;
@@ -64,7 +64,7 @@ chakNames.forEach(function(name) {
 // Handle chak dropdown change
 document.getElementById('chak-dropdown').addEventListener('change', function(e) {
     var chakName = e.target.value;
-    if (currentLayer) {
+       if (currentLayer) {
         map.removeLayer(currentLayer);
         map.removeLayer(Murabba_Layer);
 
@@ -89,9 +89,7 @@ document.getElementById('chak-dropdown').addEventListener('change', function(e) 
             
             let bounds = currentLayer.getBounds();
             map.setView(bounds.getCenter());
-            map.fitBounds(bounds);
-            
-            
+            map.fitBounds(bounds);           
             // Clear and populate second dropdown
             var Murabba_NoDropdown = document.getElementById('Murabba_No-dropdown');
 Murabba_NoDropdown.innerHTML = '<option>Select Muraba</option>';
