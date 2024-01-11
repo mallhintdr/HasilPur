@@ -21,7 +21,10 @@ L.control
   .locate({
     position: "topleft",
     strings: {
-      title: "Show My Location"
+    title: "Show My Location"
+    },
+    locateOptions: {
+      enableHighAccuracy: true
     }
   })
   .addTo(map);
