@@ -1,1 +1,189 @@
-var _0x3154f5=_0x7af7;(function(_0x5474bd,_0x53b5c1){var _0x56ee9d=_0x7af7,_0x5798ce=_0x5474bd();while(!![]){try{var _0x259f5c=-parseInt(_0x56ee9d(0x17c))/0x1+-parseInt(_0x56ee9d(0x164))/0x2*(parseInt(_0x56ee9d(0x177))/0x3)+parseInt(_0x56ee9d(0x186))/0x4*(-parseInt(_0x56ee9d(0x18c))/0x5)+parseInt(_0x56ee9d(0x170))/0x6*(-parseInt(_0x56ee9d(0x195))/0x7)+parseInt(_0x56ee9d(0x17f))/0x8+parseInt(_0x56ee9d(0x197))/0x9*(-parseInt(_0x56ee9d(0x15c))/0xa)+parseInt(_0x56ee9d(0x194))/0xb*(parseInt(_0x56ee9d(0x193))/0xc);if(_0x259f5c===_0x53b5c1)break;else _0x5798ce['push'](_0x5798ce['shift']());}catch(_0x412ed4){_0x5798ce['push'](_0x5798ce['shift']());}}}(_0x156b,0x7cb46));var map=L[_0x3154f5(0x16f)](_0x3154f5(0x16f))['setView']([0x1f,0x44],0x5),googleHybrid=L[_0x3154f5(0x162)](_0x3154f5(0x173),{'maxZoom':0x14,'subdomains':[_0x3154f5(0x180),'mt1',_0x3154f5(0x160),_0x3154f5(0x190)]})[_0x3154f5(0x185)](map),googleSat=L[_0x3154f5(0x162)](_0x3154f5(0x157),{'maxZoom':0x14,'subdomains':[_0x3154f5(0x180),_0x3154f5(0x166),_0x3154f5(0x160),'mt3']})[_0x3154f5(0x185)](map),baseLayers={'Google\x20Hybrid':googleHybrid,'Google\x20Satellite':googleSat};function customSort(_0x214ed5){var _0x50fd3b=_0x3154f5;return _0x214ed5[_0x50fd3b(0x16c)]((_0x22d496,_0xc4abf)=>{var _0x213573=_0x50fd3b;let [_0x4c95a8,_0x2f3687]=_0x22d496[_0x213573(0x179)]('\x20'),[_0xa35ccb,_0x312573]=_0xc4abf[_0x213573(0x179)]('\x20');return _0x4c95a8=parseInt(_0x4c95a8,0xa),_0xa35ccb=parseInt(_0xa35ccb,0xa),_0x4c95a8!==_0xa35ccb?_0x4c95a8-_0xa35ccb:_0x2f3687[_0x213573(0x188)](_0x312573);});}L[_0x3154f5(0x158)][_0x3154f5(0x176)](baseLayers,null,{'collapsed':!0x1,'position':_0x3154f5(0x15f)})['addTo'](map),L[_0x3154f5(0x158)]['locate']({'position':_0x3154f5(0x196),'strings':{'title':_0x3154f5(0x15a)},'locateOptions':{'enableHighAccuracy':!0x0}})[_0x3154f5(0x185)](map);var data=['Jamal\x20Pur',_0x3154f5(0x187),_0x3154f5(0x19a),_0x3154f5(0x18d),_0x3154f5(0x17d),'61\x20F',_0x3154f5(0x16b),_0x3154f5(0x15d),_0x3154f5(0x18e)];function _0x156b(){var _0x5abb01=['chak-dropdown','map','1002306XPxySy','labelstyle','geoJSON','http://{s}.google.com/vt/lyrs=y&x={x}&y={y}&z={z}','catch','openTooltip','layers','219BOLNEE','#ff0c04','split','createElement','\x20Khasra.geojson','982195bypSfF','18\x20FW','target','2769112FfZdpt','mt0','getBounds','Error\x20loading\x20Murabba_No\x20GeoJSON','center','getCenter','addTo','316AVaEaw','Old\x20Hasil\x20Pur','localeCompare','properties','removeLayer','Murabba_No','23595Acryxv','17\x20FW','65\x20F','Network\x20response\x20was\x20not\x20ok','mt3','error','#ede88f','1404dhjEeo','235411nviQjq','14kaFgNf','topleft','1251yYyvus','appendChild','getElementById','19\x20FW','addEventListener','then','#000000','filter','http://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}','control','Killa','Show\x20My\x20Location','forEach','2460dgBsvk','63\x20F','setView','bottomright','mt2','option','tileLayer','Murabba_No-dropdown','16876ROnlhZ','JSON\x20Khasra/','mt1','value','Error\x20loading\x20GeoJSON:\x20','bindTooltip','fitBounds','62\x20F','sort','Select\x20Chak'];_0x156b=function(){return _0x5abb01;};return _0x156b();}function _0x7af7(_0x577f54,_0x1520be){var _0x156b90=_0x156b();return _0x7af7=function(_0x7af7af,_0xda3f2){_0x7af7af=_0x7af7af-0x153;var _0x1fbee7=_0x156b90[_0x7af7af];return _0x1fbee7;},_0x7af7(_0x577f54,_0x1520be);}let chakNames=customSort(data);var currentLayer=null,Murabba_Layer=null;function loadGeoJson(_0x1fff81,_0x3690ab,_0x2f4ef0){var _0x29786b=_0x3154f5;fetch(_0x1fff81)['then'](function(_0x251c48){var _0x38c257=_0x7af7;if(!_0x251c48['ok'])throw new Error(_0x38c257(0x18f));return _0x251c48['json']();})[_0x29786b(0x154)](_0x3690ab)[_0x29786b(0x174)](function(_0xc10348){var _0xa0a028=_0x29786b;console[_0xa0a028(0x191)](_0xa0a028(0x168),_0xc10348),'function'==typeof _0x2f4ef0&&_0x2f4ef0(_0xc10348);});}chakNames['forEach'](function(_0x17a3c1){var _0xf5bfab=_0x3154f5,_0x53c58f=document[_0xf5bfab(0x17a)](_0xf5bfab(0x161));_0x53c58f[_0xf5bfab(0x167)]=_0x53c58f['textContent']=_0x17a3c1,document[_0xf5bfab(0x199)](_0xf5bfab(0x16e))[_0xf5bfab(0x198)](_0x53c58f);}),document[_0x3154f5(0x199)](_0x3154f5(0x16e))['addEventListener']('change',function(_0x9c1a93){var _0x12abbf=_0x3154f5,_0x144b25=_0x9c1a93[_0x12abbf(0x17e)]['value'];currentLayer&&(map[_0x12abbf(0x18a)](currentLayer),map[_0x12abbf(0x18a)](Murabba_Layer)),_0x12abbf(0x16d)!==_0x144b25&&loadGeoJson('JSON\x20Murabba/'+_0x144b25+'.geojson',function(_0x19420a){var _0x1c001a=_0x12abbf;let _0x4c1768=(currentLayer=L[_0x1c001a(0x172)](_0x19420a,{'style':function(){var _0x2d41d6=_0x1c001a;return{'fillColor':_0x2d41d6(0x155),'fillOpacity':0x0,'color':_0x2d41d6(0x178),'weight':0x3};},'onEachFeature':function(_0x308d9f,_0xa297e0){var _0x20fc5d=_0x1c001a;_0x308d9f[_0x20fc5d(0x189)]&&_0x308d9f['properties'][_0x20fc5d(0x18b)]&&_0xa297e0[_0x20fc5d(0x169)](_0x308d9f['properties'][_0x20fc5d(0x18b)],{'permanent':!0x0,'direction':'center','className':'mustateel'})['openTooltip']();}})[_0x1c001a(0x185)](map))['getBounds']();map[_0x1c001a(0x15e)](_0x4c1768[_0x1c001a(0x184)]()),map[_0x1c001a(0x16a)](_0x4c1768);var _0x2733fe=document[_0x1c001a(0x199)](_0x1c001a(0x163));_0x2733fe['innerHTML']='<option>Select\x20Muraba</option>';var _0x38a12a=_0x19420a['features']['map'](function(_0x23835a){var _0x1db613=_0x1c001a;return _0x23835a[_0x1db613(0x189)]['Murabba_No'];});_0x38a12a[_0x1c001a(0x16c)](function(_0x232087,_0x20e08a){return parseInt(_0x232087,0xa)-parseInt(_0x20e08a,0xa);}),_0x38a12a[_0x1c001a(0x15b)](function(_0x2ffab4){var _0x28b408=_0x1c001a,_0x2ac3ec=document['createElement']('option');_0x2ac3ec[_0x28b408(0x167)]=_0x2ac3ec['textContent']=_0x2ffab4,_0x2733fe[_0x28b408(0x198)](_0x2ac3ec);});});}),document['getElementById']('Murabba_No-dropdown')[_0x3154f5(0x153)]('change',function(_0x593519){var _0x12b5e9=_0x3154f5,_0x284de3=_0x593519['target']['value'],_0x1f8bde=document[_0x12b5e9(0x199)](_0x12b5e9(0x16e))[_0x12b5e9(0x167)];Murabba_Layer&&map['removeLayer'](Murabba_Layer),'Select\x20Muraba'!==_0x284de3&&loadGeoJson(_0x12b5e9(0x165)+_0x1f8bde+_0x12b5e9(0x17b),function(_0x1c329a){var _0x5cee4e=_0x12b5e9,_0x35b726={..._0x1c329a,'features':_0x1c329a['features'][_0x5cee4e(0x156)](_0x5bc7a6=>_0x5bc7a6['properties']['Murabba_No']===_0x284de3)};let _0x26f4bb=(Murabba_Layer=L['geoJSON'](_0x35b726,{'style':function(){var _0x3c0cc1=_0x5cee4e;return{'fillColor':_0x3c0cc1(0x155),'fillOpacity':0x0,'color':_0x3c0cc1(0x192),'weight':0x1};},'onEachFeature':function(_0xd21257,_0x2fd6b0){var _0x4716aa=_0x5cee4e;_0xd21257[_0x4716aa(0x189)]&&_0xd21257['properties'][_0x4716aa(0x159)]&&_0x2fd6b0['bindTooltip'](_0xd21257['properties']['Killa'],{'permanent':!0x0,'direction':_0x4716aa(0x183),'className':_0x4716aa(0x171)})[_0x4716aa(0x175)]();}})[_0x5cee4e(0x185)](map))[_0x5cee4e(0x181)]();map['setView'](_0x26f4bb[_0x5cee4e(0x184)]()),map[_0x5cee4e(0x16a)](_0x26f4bb);},function(){var _0x2b9329=_0x12b5e9;console[_0x2b9329(0x191)](_0x2b9329(0x182));});});
+var map = L.map('map').setView([31,68], 5); // Set to your default view
+
+var googleHybrid = L.tileLayer('http://{s}.google.com/vt/lyrs=y&x={x}&y={y}&z={z}', {
+    maxZoom: 20,
+    subdomains: ['mt0', 'mt1', 'mt2', 'mt3']
+}).addTo(map);
+
+var googleSat = L.tileLayer('http://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}', {
+    maxZoom: 20,
+    subdomains: ['mt0', 'mt1', 'mt2', 'mt3']
+}).addTo(map);
+
+var baseLayers = {
+    "Google Hybrid": googleHybrid,
+    "Google Satellite": googleSat
+};
+
+L.control.layers(baseLayers, null, {collapsed: false, position: 'bottomright' }).addTo(map);
+
+L.control
+  .locate({
+    position: "topleft",
+    strings: {
+    title: "Show My Location"
+    },
+    locateOptions: {
+      enableHighAccuracy: true
+    }
+  })
+  .addTo(map);
+
+L.control.scale({ 
+    metric: true,
+    imperial: false,
+    position: 'bottomleft'
+}).addTo(map);
+
+  function customSort(array) {
+    return array.sort((a, b) => {
+        // Splitting each string at the space
+        let [numA, alphaA] = a.split(" ");
+        let [numB, alphaB] = b.split(" ");
+
+        // Parsing the numeric parts as integers
+        numA = parseInt(numA, 10);
+        numB = parseInt(numB, 10);
+
+        // Comparing the numeric parts
+        if (numA !== numB) {
+            return numA - numB;
+        }
+
+        // If the numeric parts are equal, compare the alphabetical parts
+        return alphaA.localeCompare(alphaB);
+    });
+} 
+
+var currentLayer = null;
+var Murabba_Layer = null;
+let chakNames=customSort(data);
+// Populate first dropdown
+chakNames.forEach(function(name) {
+    var option = document.createElement('option');
+    option.value = option.textContent = name;
+    document.getElementById('chak-dropdown').appendChild(option);
+});
+// Handle chak dropdown change
+document.getElementById('chak-dropdown').addEventListener('change', function(e) {
+    var chakName = e.target.value;
+    if (currentLayer) {
+        map.removeLayer(currentLayer);
+        map.removeLayer(Murabba_Layer);
+    }
+    if (chakName !== "Select Chak") {
+        loadGeoJson( "JSON Murabba/"+chakName + '.geojson', function(geojsonData) {
+            currentLayer = L.geoJSON(geojsonData,{
+                style: function() {
+                    return {
+                        fillColor: "#000000", // Black, but it will be transparent due to fillOpacity
+                        fillOpacity: 0, // Transparent fill
+                        color: "#ff0c04", // Border color
+                        weight: 3 // Border width
+                    };
+                },
+                onEachFeature: function(feature, layer) {
+                    if (feature.properties && feature.properties.Murabba_No) {
+                        layer.bindTooltip(feature.properties.Murabba_No,{ permanent: true ,direction: 'center',className: 'mustateel'}).openTooltip();
+                    }
+                }
+            }).addTo(map);
+            
+            let bounds = currentLayer.getBounds();
+            map.setView(bounds.getCenter());
+            map.fitBounds(bounds);
+        // Clear and populate second dropdown
+var Murabba_NoDropdown = document.getElementById('Murabba_No-dropdown');
+Murabba_NoDropdown.innerHTML = '<option>Select Muraba</option>';
+
+// Collect all Murabba_No values into an array
+var murabbaNumbers = geojsonData.features.map(function(feature) {
+    return feature.properties.Murabba_No;
+});
+
+function customSort(a, b) {
+    let [numA, denomA = 1] = a.includes('/') ? a.split('/').map(Number) : [Number(a), 1];
+    let [numB, denomB = 1] = b.includes('/') ? b.split('/').map(Number) : [Number(b), 1];
+
+    if (numA === numB) {
+        return denomA - denomB;
+    }
+    return numA - numB;
+}
+
+murabbaNumbers.sort(customSort);
+
+// Create and append option elements to the dropdown
+murabbaNumbers.forEach(function(number) {
+    var option = document.createElement('option');
+    option.value = option.textContent = number;
+    Murabba_NoDropdown.appendChild(option);
+});
+
+            
+        });
+    }
+});
+
+document.getElementById('Murabba_No-dropdown').addEventListener('change', function(e) {
+    var selectedMurabba_No = e.target.value;
+    var chakName = document.getElementById('chak-dropdown').value;
+    
+    if (Murabba_Layer) {
+        map.removeLayer(Murabba_Layer);
+    }
+
+    if (selectedMurabba_No !== "Select Muraba") {
+        loadGeoJson("JSON Khasra/"+chakName + ' ' + 'Khasra' + '.geojson', function(geojsonData) {
+            // Filter the GeoJSON data
+            var filteredGeoJson = {
+                ...geojsonData,
+                features: geojsonData.features.filter(feature => 
+                    feature.properties.Murabba_No === selectedMurabba_No)
+            };
+
+            // Add the filtered data to the map
+            Murabba_Layer = L.geoJSON(filteredGeoJson,{
+                style: function() {
+                    return {
+                        fillColor: "#000000", // Black, but it will be transparent due to fillOpacity
+                        fillOpacity: 0, // Transparent fill
+                        color: "#ede88f", // Border color
+                        weight: 1 // Border width
+                    };
+                },
+                onEachFeature: function(feature, layer) {
+                    if (feature.properties && feature.properties.Killa) {
+                        layer.bindTooltip(feature.properties.Killa,{ permanent: true ,direction: 'center',className: 'labelstyle'}).openTooltip();
+                    }
+                }
+            }).addTo(map);
+
+            let bounds = Murabba_Layer.getBounds();
+            map.setView(bounds.getCenter());
+            map.fitBounds(bounds);
+        }, function() {
+            console.error("Error loading Murabba_No GeoJSON");
+        });
+    }
+});
+
+// ... rest of the code remains the same
+function loadGeoJson(url, onSuccess, onError) {
+    fetch(url)
+        .then(function(response) {
+            if (!response.ok) {
+                throw new Error('Network response was not ok');
+            }
+            return response.json();
+        })
+        .then(onSuccess)
+        .catch(function(error) {
+            console.error('Error loading GeoJSON: ', error);
+            if (typeof onError === 'function') {
+                onError(error);
+            }
+        });
+}
+
+

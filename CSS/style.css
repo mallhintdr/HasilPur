@@ -1,13 +1,13 @@
 body, html {
     margin: 0;
     padding: 0;
-    height: 99%;
+    height: 100%;
 }
 #map {
     position: relative;
    /*Adjust according to the height of the top-panel */
     width: 99%;    
-    height: 86vh;
+    height: 80vh;
     left: 0;
 }
 #top-panel {
@@ -33,7 +33,7 @@ body, html {
 #footer-panel {
     background-color: #1d1d1d;
     padding: 0px;
-    top:94vh;
+    top:85vh;
     position: absolute; /* Ensure it's above the map */
     width: 99%;
     height: 3vh;
@@ -162,22 +162,3 @@ h3 {
     background-size: cover;
     z-index: 1000;
 }
-/* Customize the scale bar container */
-.leaflet-control-scale {
-    background: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
-    color: #ed2e2e; /* Color of the scale text */
-    border: 1px solid #eb9a9a; /* Border around the scale bar */
-    border-radius: 5px; /* Rounded corners */
-    padding: 5px; /* Some padding around the text */
-}
-
-/* Customize the scale bar itself */
-.leaflet-control-scale-line {
-    background: rgb(237, 225, 181); /* Greenish background for the scale line */
-    border-top: 1px solid #448; /* Dark blue border on top */
-    border-bottom: 1px solid #448; /* Dark blue border on bottom */
-    height: 10px; /* Height of the scale line */
-}
-
-
-
